@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+</style>
+<body>
+    <section>
+        <h1><center>Enter Details:</center></h1>
+    <form action="/action_page.php">
+    <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"placeholder="enter your name"><br>
+    </div>
+    <div>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"placeholder="enter your name"><br>
+    </div>
+    <div>
+    enter dob:
+    <br>
+    <input type="date" name="dob"/>
+    </div>
+    <div>
+         <label for="email">email:</label><br>
+        <input type="email" id="email" name="email"placeholder="enter your email"><br>
+    </div>
+    <div>
+        <label for="passoword">password:</label><br>
+        <input type="password" id="password" name="password"placeholder="enter password"><br>
+    </div>
+    <div>
+         <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender" name="my gender"/>male
+        <input type="radio" name="my gender"/>female<br>
+    </div>
+    <div>
+        <label for="contact no">contact no:</label><br>
+        <input type="number" id="number" name="number"placeholder="enter valid number">
+        <br>
+    </div>
+    <div>
+        Are you eligible?:
+        <input type="checkbox" name="my eligibility"/>
+    </div>
+    <div>
+    upload photo:
+    <br>
+    upload your photo:
+    <input type="file" name="photo" required/>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+    </div>
+    <div>    
+        <input type="reset" value="Reset">
+    </div>    
+    </form>
+    </section>
+</body>
+</html>

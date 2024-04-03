@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1><center>Enter Details:</center></h1>
+
+<p>The <strong>input type="reset"</strong> defines a reset button that resets all form values to their default values:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"placeholder="enter your name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"placeholder="enter your name"><br>
+   <label for="email">email:</label><br>
+  <input type="email" id="email" name="email"placeholder="enter your email"><br>
+  <label for="passoword">password:</label><br>
+  <input type="password" id="password" name="password"placeholder="enter password"><br>
+   <label for="gender">Gender:</label><br>
+  <input type="radio" id="gender" name="my gender"/>male
+  <input type="radio" name="my gender"/>female<br>
+  <label for="contact no">contact no:</label><br>
+  <input type="number" id="number" name="number"placeholder="enter valid number">
+  <br>
+  Are you eligible?:
+  <input type="checkbox" name="my eligibility"/>
+  <br>
+  upload your photo:
+  <input type="file" name="photo"/>
+  <br>
+  <input type="submit" value="Submit">
+  <br>
+  <input type="reset" value="Reset">
+</form>
+
+<p>If you change the input values and then click the "Reset" button, the form-data will be reset to the default values.</p>
+
+</body>
+</html>
+
